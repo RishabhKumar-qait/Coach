@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="parameter">
+	<test name="Parameter">
+		<parameter name="name" value="Google.com"></parameter>
+		<classes>
+			<class name="com.qait.coach.Main_menu"></class>
+		</classes>
+
+	</test>
+
+</suite>	

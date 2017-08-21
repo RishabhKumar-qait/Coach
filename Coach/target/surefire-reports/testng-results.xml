@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="parameter" duration-ms="49733" started-at="2017-08-21T14:19:27Z" finished-at="2017-08-21T14:20:17Z">
+    <groups>
+    </groups>
+    <test name="Parameter" duration-ms="49733" started-at="2017-08-21T14:19:27Z" finished-at="2017-08-21T14:20:17Z">
+      <class name="com.qait.coach.Main_menu">
+        <test-method status="PASS" signature="start_chrome()[pri:0, instance:com.qait.coach.Main_menu@60f82f98]" name="start_chrome" is-config="true" duration-ms="12043" started-at="2017-08-21T19:49:27Z" finished-at="2017-08-21T19:49:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start_chrome -->
+        <test-method status="PASS" signature="launch_url(org.testng.ITestContext)[pri:0, instance:com.qait.coach.Main_menu@60f82f98]" name="launch_url" is-config="true" duration-ms="6842" started-at="2017-08-21T19:49:39Z" finished-at="2017-08-21T19:49:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@183ec003]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_url -->
+        <test-method status="PASS" signature="dropdown_menu_new()[pri:0, instance:com.qait.coach.Main_menu@60f82f98]" name="dropdown_menu_new" duration-ms="152" started-at="2017-08-21T19:49:46Z" finished-at="2017-08-21T19:49:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropdown_menu_new -->
+        <test-method status="PASS" signature="launch_url(org.testng.ITestContext)[pri:0, instance:com.qait.coach.Main_menu@60f82f98]" name="launch_url" is-config="true" duration-ms="6031" started-at="2017-08-21T19:49:46Z" finished-at="2017-08-21T19:49:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@183ec003]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_url -->
+        <test-method status="PASS" signature="verify_dropdown_COACH_1941()[pri:0, instance:com.qait.coach.Main_menu@60f82f98]" name="verify_dropdown_COACH_1941" duration-ms="78" started-at="2017-08-21T19:49:52Z" finished-at="2017-08-21T19:49:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_dropdown_COACH_1941 -->
+        <test-method status="PASS" signature="launch_url(org.testng.ITestContext)[pri:0, instance:com.qait.coach.Main_menu@60f82f98]" name="launch_url" is-config="true" duration-ms="4803" started-at="2017-08-21T19:49:52Z" finished-at="2017-08-21T19:49:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@183ec003]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_url -->
+        <test-method status="PASS" signature="verify_dropdown_Personalize()[pri:0, instance:com.qait.coach.Main_menu@60f82f98]" name="verify_dropdown_Personalize" duration-ms="86" started-at="2017-08-21T19:49:57Z" finished-at="2017-08-21T19:49:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_dropdown_Personalize -->
+        <test-method status="PASS" signature="launch_url(org.testng.ITestContext)[pri:0, instance:com.qait.coach.Main_menu@60f82f98]" name="launch_url" is-config="true" duration-ms="4762" started-at="2017-08-21T19:49:57Z" finished-at="2017-08-21T19:50:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@183ec003]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_url -->
+        <test-method status="PASS" signature="verify_dropdown_men()[pri:0, instance:com.qait.coach.Main_menu@60f82f98]" name="verify_dropdown_men" duration-ms="89" started-at="2017-08-21T19:50:02Z" finished-at="2017-08-21T19:50:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_dropdown_men -->
+        <test-method status="PASS" signature="launch_url(org.testng.ITestContext)[pri:0, instance:com.qait.coach.Main_menu@60f82f98]" name="launch_url" is-config="true" duration-ms="4911" started-at="2017-08-21T19:50:02Z" finished-at="2017-08-21T19:50:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@183ec003]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_url -->
+        <test-method status="PASS" signature="verify_dropdown_sale()[pri:0, instance:com.qait.coach.Main_menu@60f82f98]" name="verify_dropdown_sale" duration-ms="94" started-at="2017-08-21T19:50:07Z" finished-at="2017-08-21T19:50:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_dropdown_sale -->
+        <test-method status="PASS" signature="launch_url(org.testng.ITestContext)[pri:0, instance:com.qait.coach.Main_menu@60f82f98]" name="launch_url" is-config="true" duration-ms="5019" started-at="2017-08-21T19:50:07Z" finished-at="2017-08-21T19:50:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@183ec003]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_url -->
+        <test-method status="PASS" signature="verify_dropdown_women()[pri:0, instance:com.qait.coach.Main_menu@60f82f98]" name="verify_dropdown_women" duration-ms="92" started-at="2017-08-21T19:50:12Z" finished-at="2017-08-21T19:50:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_dropdown_women -->
+        <test-method status="PASS" signature="launch_url(org.testng.ITestContext)[pri:0, instance:com.qait.coach.Main_menu@60f82f98]" name="launch_url" is-config="true" duration-ms="4570" started-at="2017-08-21T19:50:12Z" finished-at="2017-08-21T19:50:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@183ec003]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_url -->
+        <test-method status="PASS" signature="verify_search_button()[pri:0, instance:com.qait.coach.Main_menu@60f82f98]" name="verify_search_button" duration-ms="78" started-at="2017-08-21T19:50:17Z" finished-at="2017-08-21T19:50:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_search_button -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.qait.coach.Main_menu@60f82f98]" name="close" is-config="true" duration-ms="57" started-at="2017-08-21T19:50:17Z" finished-at="2017-08-21T19:50:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.qait.coach.Main_menu -->
+    </test> <!-- Parameter -->
+  </suite> <!-- parameter -->
+</testng-results>
