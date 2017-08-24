@@ -9,6 +9,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.phantomjs.PhantomJSDriver;
+import org.openqa.selenium.phantomjs.PhantomJSDriverService;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.Reporter;
 
 import properties_file_reader.Properties_File_Reader;
@@ -39,13 +41,26 @@ public class Browser {
 
 			System.setProperty("webdriver.chrome.driver", "Driver/chromedriver.exe");
 
-			 driver = new ChromeDriver();
-//			driver = new HtmlUnitDriver();
-		} else if (browser.equalsIgnoreCase("in")) {
+			driver = new ChromeDriver();
+
+		} else if (browser.equalsIgnoreCase("HtmlUnitDriver")) {
+			driver = new HtmlUnitDriver();
+		} else if (browser.equalsIgnoreCase("Phantomjs")) {
+			DesiredCapabilities caps = new DesiredCapabilities();
+			caps.setJavascriptEnabled(true);
+			caps.setCapability("takesScreenshot", true);
+			caps.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY,
+					"D:\\phantomjs-2.1.1-windows\\bin\\phantomjs.exe");
+			driver = new PhantomJSDriver(caps);
+		}
+
+		else if (browser.equalsIgnoreCase("ie")) {
 			System.setProperty("webdriver.ie.driver", "Driver/IEDriverServer.exe");
 			driver = new InternetExplorerDriver();
 		} else {
+			System.out.println("Browser is not correct");
 			throw new Exception("Browser is not correct");
+
 		}
 		Reporter.log(browser + " is startted...");
 		driver.manage().window().maximize();
