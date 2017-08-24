@@ -33,7 +33,7 @@ public class VerifyHomePage_Test {
 		vm.verify_Account();
 	}
 
-/*	@Test
+	@Test
 	private void coach_003_verify_wishlist() {
 		vm.verify_wishlist();
 	}
@@ -72,7 +72,7 @@ public class VerifyHomePage_Test {
 	private void coach_010_verify_Sale() throws MalformedURLException {
 		vm.Verify_Main_menu(7, "SALE");
 	}
-*/
+
 	@AfterClass
 	void close_browser() {
 		vm.close_driver();
