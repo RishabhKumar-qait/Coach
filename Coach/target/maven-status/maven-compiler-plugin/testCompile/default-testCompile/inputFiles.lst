@@ -1,4 +1,5 @@
-D:\selenium web driver\coach\src\test\java\com\qait\coach\AppTest.java
-D:\selenium web driver\coach\src\test\java\com\qait\coach\Main_menu.java
-D:\selenium web driver\coach\src\test\java\com\qait\coach\verifyHomepage.java
-D:\selenium web driver\coach\src\test\java\com\qait\coach\assert_method.java
+D:\selenium web driver\_COACH\src\test\java\Verify_Homepage\VerifyHomePageMethod.java
+D:\selenium web driver\_COACH\src\test\java\Start_Browser\Browser.java
+D:\selenium web driver\_COACH\src\test\java\properties_file_reader\Properties_File_Reader.java
+D:\selenium web driver\_COACH\src\test\java\Verify_Homepage\VerifyHomePage_Test.java
+D:\selenium web driver\_COACH\src\test\java\locators\Locators.java

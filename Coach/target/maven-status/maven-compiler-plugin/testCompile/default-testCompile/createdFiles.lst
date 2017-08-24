@@ -1,4 +1,5 @@
-com\qait\coach\assert_method.class
-com\qait\coach\Main_menu.class
-com\qait\coach\verifyHomepage.class
-com\qait\coach\AppTest.class
+Start_Browser\Browser.class
+Verify_Homepage\VerifyHomePageMethod.class
+properties_file_reader\Properties_File_Reader.class
+locators\Locators.class
+Verify_Homepage\VerifyHomePage_Test.class

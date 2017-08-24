@@ -1,126 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
+    <line>
+      <![CDATA[Chrome is startted...]]>
+    </line>
+    <line>
+      <![CDATA[Coach web application Url is launched]]>
+    </line>
+    <line>
+      <![CDATA[Page is Refreshed to get the actual content]]>
+    </line>
+    <line>
+      <![CDATA[Coach logo is verified]]>
+    </line>
+    <line>
+      <![CDATA[Coach web application Url is launched]]>
+    </line>
+    <line>
+      <![CDATA[Page is Refreshed to get the actual content]]>
+    </line>
+    <line>
+      <![CDATA[Account icon is verified]]>
+    </line>
+    <line>
+      <![CDATA[Browser is closed.]]>
+    </line>
   </reporter-output>
-  <suite name="parameter" duration-ms="49733" started-at="2017-08-21T14:19:27Z" finished-at="2017-08-21T14:20:17Z">
+  <suite name="Coach" duration-ms="16530" started-at="2017-08-24T05:04:38Z" finished-at="2017-08-24T05:04:54Z">
     <groups>
     </groups>
-    <test name="Parameter" duration-ms="49733" started-at="2017-08-21T14:19:27Z" finished-at="2017-08-21T14:20:17Z">
-      <class name="com.qait.coach.Main_menu">
-        <test-method status="PASS" signature="start_chrome()[pri:0, instance:com.qait.coach.Main_menu@60f82f98]" name="start_chrome" is-config="true" duration-ms="12043" started-at="2017-08-21T19:49:27Z" finished-at="2017-08-21T19:49:39Z">
+    <test name="VerifyHomePage" duration-ms="16530" started-at="2017-08-24T05:04:38Z" finished-at="2017-08-24T05:04:54Z">
+      <class name="Verify_Homepage.VerifyHomePage_Test">
+        <test-method status="PASS" signature="start_browser()[pri:0, instance:Verify_Homepage.VerifyHomePage_Test@3c09711b]" name="start_browser" is-config="true" duration-ms="3971" started-at="2017-08-24T10:34:38Z" finished-at="2017-08-24T10:34:42Z">
           <reporter-output>
+            <line>
+              <![CDATA[Chrome is startted...]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- start_chrome -->
-        <test-method status="PASS" signature="launch_url(org.testng.ITestContext)[pri:0, instance:com.qait.coach.Main_menu@60f82f98]" name="launch_url" is-config="true" duration-ms="6842" started-at="2017-08-21T19:49:39Z" finished-at="2017-08-21T19:49:46Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@183ec003]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- start_browser -->
+        <test-method status="PASS" signature="launch_url()[pri:0, instance:Verify_Homepage.VerifyHomePage_Test@3c09711b]" name="launch_url" is-config="true" duration-ms="8194" started-at="2017-08-24T10:34:42Z" finished-at="2017-08-24T10:34:50Z">
           <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch_url -->
-        <test-method status="PASS" signature="dropdown_menu_new()[pri:0, instance:com.qait.coach.Main_menu@60f82f98]" name="dropdown_menu_new" duration-ms="152" started-at="2017-08-21T19:49:46Z" finished-at="2017-08-21T19:49:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dropdown_menu_new -->
-        <test-method status="PASS" signature="launch_url(org.testng.ITestContext)[pri:0, instance:com.qait.coach.Main_menu@60f82f98]" name="launch_url" is-config="true" duration-ms="6031" started-at="2017-08-21T19:49:46Z" finished-at="2017-08-21T19:49:52Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@183ec003]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
+            <line>
+              <![CDATA[Coach web application Url is launched]]>
+            </line>
+            <line>
+              <![CDATA[Page is Refreshed to get the actual content]]>
+            </line>
           </reporter-output>
         </test-method> <!-- launch_url -->
-        <test-method status="PASS" signature="verify_dropdown_COACH_1941()[pri:0, instance:com.qait.coach.Main_menu@60f82f98]" name="verify_dropdown_COACH_1941" duration-ms="78" started-at="2017-08-21T19:49:52Z" finished-at="2017-08-21T19:49:52Z">
+        <test-method status="PASS" signature="coach_001_verify_logo()[pri:0, instance:Verify_Homepage.VerifyHomePage_Test@3c09711b]" name="coach_001_verify_logo" duration-ms="49" started-at="2017-08-24T10:34:50Z" finished-at="2017-08-24T10:34:50Z">
           <reporter-output>
+            <line>
+              <![CDATA[Coach logo is verified]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- verify_dropdown_COACH_1941 -->
-        <test-method status="PASS" signature="launch_url(org.testng.ITestContext)[pri:0, instance:com.qait.coach.Main_menu@60f82f98]" name="launch_url" is-config="true" duration-ms="4803" started-at="2017-08-21T19:49:52Z" finished-at="2017-08-21T19:49:57Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@183ec003]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- coach_001_verify_logo -->
+        <test-method status="PASS" signature="launch_url()[pri:0, instance:Verify_Homepage.VerifyHomePage_Test@3c09711b]" name="launch_url" is-config="true" duration-ms="4200" started-at="2017-08-24T10:34:50Z" finished-at="2017-08-24T10:34:54Z">
           <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch_url -->
-        <test-method status="PASS" signature="verify_dropdown_Personalize()[pri:0, instance:com.qait.coach.Main_menu@60f82f98]" name="verify_dropdown_Personalize" duration-ms="86" started-at="2017-08-21T19:49:57Z" finished-at="2017-08-21T19:49:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_dropdown_Personalize -->
-        <test-method status="PASS" signature="launch_url(org.testng.ITestContext)[pri:0, instance:com.qait.coach.Main_menu@60f82f98]" name="launch_url" is-config="true" duration-ms="4762" started-at="2017-08-21T19:49:57Z" finished-at="2017-08-21T19:50:02Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@183ec003]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
+            <line>
+              <![CDATA[Coach web application Url is launched]]>
+            </line>
+            <line>
+              <![CDATA[Page is Refreshed to get the actual content]]>
+            </line>
           </reporter-output>
         </test-method> <!-- launch_url -->
-        <test-method status="PASS" signature="verify_dropdown_men()[pri:0, instance:com.qait.coach.Main_menu@60f82f98]" name="verify_dropdown_men" duration-ms="89" started-at="2017-08-21T19:50:02Z" finished-at="2017-08-21T19:50:02Z">
+        <test-method status="PASS" signature="coach_002_verify_Account()[pri:0, instance:Verify_Homepage.VerifyHomePage_Test@3c09711b]" name="coach_002_verify_Account" duration-ms="43" started-at="2017-08-24T10:34:54Z" finished-at="2017-08-24T10:34:54Z">
           <reporter-output>
+            <line>
+              <![CDATA[Account icon is verified]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- verify_dropdown_men -->
-        <test-method status="PASS" signature="launch_url(org.testng.ITestContext)[pri:0, instance:com.qait.coach.Main_menu@60f82f98]" name="launch_url" is-config="true" duration-ms="4911" started-at="2017-08-21T19:50:02Z" finished-at="2017-08-21T19:50:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@183ec003]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- coach_002_verify_Account -->
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:Verify_Homepage.VerifyHomePage_Test@3c09711b]" name="close_browser" is-config="true" duration-ms="57" started-at="2017-08-24T10:34:54Z" finished-at="2017-08-24T10:34:54Z">
           <reporter-output>
+            <line>
+              <![CDATA[Browser is closed.]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- launch_url -->
-        <test-method status="PASS" signature="verify_dropdown_sale()[pri:0, instance:com.qait.coach.Main_menu@60f82f98]" name="verify_dropdown_sale" duration-ms="94" started-at="2017-08-21T19:50:07Z" finished-at="2017-08-21T19:50:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_dropdown_sale -->
-        <test-method status="PASS" signature="launch_url(org.testng.ITestContext)[pri:0, instance:com.qait.coach.Main_menu@60f82f98]" name="launch_url" is-config="true" duration-ms="5019" started-at="2017-08-21T19:50:07Z" finished-at="2017-08-21T19:50:12Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@183ec003]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch_url -->
-        <test-method status="PASS" signature="verify_dropdown_women()[pri:0, instance:com.qait.coach.Main_menu@60f82f98]" name="verify_dropdown_women" duration-ms="92" started-at="2017-08-21T19:50:12Z" finished-at="2017-08-21T19:50:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_dropdown_women -->
-        <test-method status="PASS" signature="launch_url(org.testng.ITestContext)[pri:0, instance:com.qait.coach.Main_menu@60f82f98]" name="launch_url" is-config="true" duration-ms="4570" started-at="2017-08-21T19:50:12Z" finished-at="2017-08-21T19:50:17Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@183ec003]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch_url -->
-        <test-method status="PASS" signature="verify_search_button()[pri:0, instance:com.qait.coach.Main_menu@60f82f98]" name="verify_search_button" duration-ms="78" started-at="2017-08-21T19:50:17Z" finished-at="2017-08-21T19:50:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_search_button -->
-        <test-method status="PASS" signature="close()[pri:0, instance:com.qait.coach.Main_menu@60f82f98]" name="close" is-config="true" duration-ms="57" started-at="2017-08-21T19:50:17Z" finished-at="2017-08-21T19:50:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- com.qait.coach.Main_menu -->
-    </test> <!-- Parameter -->
-  </suite> <!-- parameter -->
+        </test-method> <!-- close_browser -->
+      </class> <!-- Verify_Homepage.VerifyHomePage_Test -->
+    </test> <!-- VerifyHomePage -->
+  </suite> <!-- Coach -->
 </testng-results>

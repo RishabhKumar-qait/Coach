@@ -1,11 +1,13 @@
+<?xml version="1.0"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="parameter">
-	<test name="Parameter">
-		<parameter name="name" value="Google.com"></parameter>
-		<classes>
-			<class name="com.qait.coach.Main_menu"></class>
-		</classes>
+<suite name="Coach">
+	<test name="VerifyHomePage">
 
+		<classes>
+
+			<class name="Verify_Homepage.VerifyHomePage_Test"></class>
+
+		</classes>
 	</test>
 
 </suite>	

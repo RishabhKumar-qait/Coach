@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Coach]">
+  <test name="VerifyHomePage(failed)">
+    <classes>
+      <class name="Verify_Homepage.VerifyHomePage_Test">
+        <methods>
+          <include name="start_browser"/>
+          <include name="coach_003_verify_wishlist"/>
+          <include name="close_browser"/>
+          <include name="launch_url"/>
+          <include name="coach_002_verify_Account"/>
+        </methods>
+      </class> <!-- Verify_Homepage.VerifyHomePage_Test -->
+    </classes>
+  </test> <!-- VerifyHomePage(failed) -->
+</suite> <!-- Failed suite [Coach] -->
